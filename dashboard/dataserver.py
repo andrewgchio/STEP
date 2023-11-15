@@ -3,6 +3,8 @@
 # A server to handle REST API requests from the Grafana dashboard
 #
 import sys
+sys.path.append('.')
+sys.path.append('..')
 from random import choice, random
 
 from itertools import count
@@ -15,7 +17,7 @@ from flask_cors import CORS
 from shapely import centroid
 
 import utils.utils as utils
-from dataingest import dataloader
+from dashboard import dataloader
 from network.StormwaterGraph import StormwaterGraph as SWGraph
 from utils.psql_connection import PostgreSQLConnection
 from utils.CoordinateSystem import CoordinateSystem
