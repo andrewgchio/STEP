@@ -1,0 +1,6 @@
+Sensor ID,Accuracy,Unit,Phenomenon,Cost,Notes
+1,11.6,percent,turbidity,200,"July 11, 2022 Biofoling impact relative difference"
+2,1,mm,depth,300,
+3,0.5,C,temperature,200,
+4,10,percent,ec,200,
+5,5,mm,velocity,300,"Feb 6, 2022 stdev "
